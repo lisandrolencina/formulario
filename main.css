@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+/*Fuentes*/
+/*Colores*/
+.menu {
+  width: 900px;
+  margin: 0 auto;
+  align-items: center;
+}
+
+header {
+  width: 100%;
+  display: table;
+}
+
+nav {
+  float: right;
+}
+
+nav ul li {
+  list-style: none;
+  margin-left: 25px;
+  float: left;
+  padding: 25px 0;
+  cursor: pointer;
+  position: relative;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+
+nav ul li a::before {
+  display: block;
+  content: "";
+  width: 0%;
+  border-radius: 8px;
+  background: rgb(255, 255, 255);
+  height: 4px;
+  top: 45px;
+  position: absolute;
+  transition: width 0.2s;
+}
+
+nav ul li a:hover::before {
+  width: 50%;
+}
+
+.conteinerPrincipal {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 80px;
+  background-color: white;
+  width: 80%;
+  height: 500px;
+  border-radius: 30px;
+}
+
+.contact {
+  margin-left: 120px;
+}
+
+.ubicacion {
+  display: flex;
+  align-items: center;
+}
+
+.llamadas {
+  margin: 10px 5px;
+  display: flex;
+  align-items: center;
+}
+
+.mensaje {
+  display: flex;
+  align-items: center;
+}
+
+.img-llamada {
+  margin: 0 -2px;
+}
+
+.pl {
+  margin: 0 6px;
+}
+
+.msj {
+  margin: 0 6px;
+}
+
+form .ip {
+  height: 40px;
+  width: 450px;
+}
+
+input {
+  padding: 0 20px;
+  margin: 10px;
+  background-color: #F5F5FF;
+  border: none;
+  outline: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+form .ip2 {
+  height: 150px;
+  width: 450px;
+  padding-bottom: 90px;
+}
+
+.btn {
+  margin: 10px;
+  width: 450px;
+  height: 50px;
+  cursor: pointer;
+  background-color: #666AF5;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  border: none;
+  outline: 0;
+  color: white;
+}
+
+.titles {
+  margin: 10px;
+}
+
+.titles h2 {
+  font-family: "Roboto", sans-serif;
+  color: #666AF5;
+}
+
+.titles p {
+  font-family: "Poppins", sans-serif;
+  color: black;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #666AF5;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+}
+
+/*# sourceMappingURL=main.css.map */

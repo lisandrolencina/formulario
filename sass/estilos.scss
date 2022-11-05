@@ -1,0 +1,19 @@
+@use 'fontColors';
+@use 'nav';
+@use 'containerPrincipal';
+@use 'contact';
+@use 'input';
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #666AF5;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+}

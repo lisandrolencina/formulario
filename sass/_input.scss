@@ -1,0 +1,49 @@
+@use 'fontColors';
+
+form .ip{
+    height: 40px;  
+    width: 450px;
+}
+
+input{
+    padding: 0 20px;
+    margin: 10px;
+    background-color: fontColors.$bgainput ;
+    border: none;
+    outline: 0;
+    font-family: fontColors.$poppins;
+}
+
+
+form .ip2{
+    height: 150px;  
+    width: 450px;
+    padding-bottom: 90px;
+}
+
+.btn{
+    margin: 10px;
+    width: 450px;
+    height: 50px;
+    cursor: pointer;
+    background-color: fontColors.$purble ;
+    font-family: fontColors.$poppins;
+    font-weight: 400;
+    border: none;
+    outline: 0;
+    color: white;
+}
+.titles{
+    margin: 10px;
+}
+
+.titles h2{
+    font-family: fontColors.$roboto;
+    color: fontColors.$purble ;
+
+}
+
+.titles p{
+    font-family: fontColors.$poppins;
+    color: black;
+}
